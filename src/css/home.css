@@ -1,0 +1,32 @@
+.home-title {
+  margin-top: 48px;
+  margin-bottom: 24px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.home-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.home-nav a {
+  display: inline-block;
+  padding: 10px 16px;
+  border: 1px solid #4e75ff;
+  border-radius: 8px;
+  color: #4e75ff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.home-nav a:hover,
+.home-nav a:focus {
+  background-color: #4e75ff;
+  color: #fff;
+}
